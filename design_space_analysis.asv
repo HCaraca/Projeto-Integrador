@@ -64,13 +64,13 @@ for i = 1 : length(mission.segments)
         end
     elseif strcmp(mission.segments{i}.type, 'turn') % Turn segment
         
-        [turn1, min_turn] = turn(pl, wl, wl, k, mission.segments{i}, vehicle, energy);
+        [turn1, turn2, min_turn] = turn(pl, wl_grid, wl, k, mission.segments{i}, vehicle, energy);
         yyaxis left;
         %plot([pl(1) pl(end)], [range_constraint range_constraint], 'DisplayName', strcat(mission.segments{i}.name, ": range constraint"));
         %plot(cruise_speed_constraint, wl, 'DisplayName', strcat(mission.segments{i}.name, ": cruise speed constraint"));
-        plot(turn1, wl, 'DisplayName', strcat(mission.segments{i}.name, ": First option"));
+        plot(pl, turn1, 'DisplayName', strcat(mission.segments{i}.name, ": First option"));
         plot([min_turn min_turn], [wl(1) wl(end)], 'DisplayName', strcat(mission.segments{i}.name, ": Second option"));
-        %plot(turn2, wl)
+        %plot(pl, turn2) inutil: a curva dá negativa
         
         fpl = vehicle.mass * constants.g / power;
         if fpl > fpl_design
@@ -231,7 +231,7 @@ region = range_region .* cruise_speed_region;
 
 power = network_max_power(network);
 
-function [WP1_turn, min] = turn(plf_v, wl_v, wl, k, segment, vehicle, energy)
+function [WS1_turn, WS2_turn, min] = turn(plf, wl, wl, k, segment, vehicle, energy)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 V = segment.velocity;
@@ -243,9 +243,7 @@ rho = 1.1;
 
 q = 0.5 * rho * V^2;
 
-PW1_turn = (1/eta) * (  (rho*V^3*Cd0)./(2.*wl_v)  + (2*k*n^2)/(rho*V) .* wl_v  );
-min = 1/((2*n*V)/eta * sqrt(Cd0*k));
-WP1_turn = 1./PW1_turn;
+WS1_turn = (1/eta) * (  (rho*V^3*Cd0)./(2.*wl)  + (2*k*n^2)/(rho*V) .* wl  );
 
 
 % t_w = (1/V)./plf_grid;
