@@ -145,9 +145,6 @@ for i = 1 : length(mission.segments)
     cf = cf .* forward_region;
     cv = cv .* vertical_region;
     
-    disp(fpl_design)
-    disp(vpl_design)
-    
 end
 
 

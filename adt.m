@@ -4,6 +4,8 @@
 %
 % This file is subject to the license terms in the LICENSE file included in this distribution
 
+% correr a seguinte linha de codigo: adt('mission_profile.json')
+
 function data = adt(filename, varargin)
 %% Constants
 global constants;
