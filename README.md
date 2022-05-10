@@ -1,3 +1,24 @@
+# Linhas de comando usuais e habituais:
+1. git pull - descarrega os ficheiros atuais correspondentes ao branch em que se está a trabalhar
+2. git clone url - clona os ficheiros de um determinado repositório (primeiro passo para usar este repositório)
+3. git config --global user.email "exemplo@gmail.com" - configura o email do utilizador do computador (importante para ter acesso ao repositório privado)
+4. git config --global user.name "Nome Exemplo" - configura o nome do utilizador do computador, útil para identificar quem fez as modificações em cada commit
+5. git add . - adiciona todos os ficheiros para a fase de stage, para que depois possa ser dado o commit
+6. git status - mostra todos os ficheiros prontos para commit
+7. git commit -m "mensagem para o commit" - fornece os ficheiros staged ao branch no repositório local (ver regras de commit)
+8. git push - fornece os ficheiros staged ao branch no repositório online
+9. git log - mostra o log de todas as mudanças efetuadas
+10. git branch - enumera os branches existentes
+11. git push --set-upstream origin Branch_example - criação de um novo branch
+12. git push origin --delete Branch_example - apagar um branch
+13. git checkout -b Branch_example - sai do branch ativo e vai para o novo branch "Branch_example" criado
+14. git checkout Branch_example - sai do branch ativo e vai para o branch "Branch_example"
+15. git config --global core.autocrlf true (Windows)
+16. git config --global core.autocrlf input (Mac)
+
+
+
+
 # Aircraft Design Tool
 
 - [Introduction](#introduction)
