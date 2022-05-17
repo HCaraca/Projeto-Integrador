@@ -196,7 +196,7 @@
                 "density":1.2185448668150525
             }, 
             {
-                "name":"VTOL", 
+                "name":"VTOL2", 
                 "type":"vertical_descent", 
                 "energy_network":"Electric Energy Network @ vertical flight", 
                 "time":27.5, 
@@ -235,7 +235,7 @@
                 "segments":[
                     {
                         "name":"VTOL", 
-                        "base_drag_coefficient":0.011600637880163004, 
+                        "base_drag_coefficient":0.016405779422305592, 
                         "lift_slope_coefficient":0
                     }, 
                     {
@@ -254,8 +254,8 @@
                         "lift_slope_coefficient":0
                     }, 
                     {
-                        "name":"VTOL", 
-                        "base_drag_coefficient":0, 
+                        "name":"VTOL2", 
+                        "base_drag_coefficient":0.011600637880163004, 
                         "lift_slope_coefficient":0
                     }
                 ]
@@ -284,8 +284,8 @@
                 "segments":[
                     {
                         "name":"VTOL", 
-                        "base_drag_coefficient":0.015027697477044197, 
-                        "lift_slope_coefficient":4.8408770892290232
+                        "base_drag_coefficient":0.018759533840245948, 
+                        "lift_slope_coefficient":4.8408295618356165
                     }, 
                     {
                         "name":"Cruise", 
@@ -303,9 +303,9 @@
                         "lift_slope_coefficient":4.8507541461571524
                     }, 
                     {
-                        "name":"VTOL", 
-                        "base_drag_coefficient":0, 
-                        "lift_slope_coefficient":0
+                        "name":"VTOL2", 
+                        "base_drag_coefficient":0.015027697477044197, 
+                        "lift_slope_coefficient":4.8408770892290232
                     }
                 ]
             }, 
@@ -333,8 +333,8 @@
                 "segments":[
                     {
                         "name":"VTOL", 
-                        "base_drag_coefficient":0.0044576546906917557, 
-                        "lift_slope_coefficient":3.6997873484580381
+                        "base_drag_coefficient":0.0055646265268450837, 
+                        "lift_slope_coefficient":3.6997630104109636
                     }, 
                     {
                         "name":"Cruise", 
@@ -352,9 +352,9 @@
                         "lift_slope_coefficient":3.7048403259637817
                     }, 
                     {
-                        "name":"VTOL", 
-                        "base_drag_coefficient":0, 
-                        "lift_slope_coefficient":0
+                        "name":"VTOL2", 
+                        "base_drag_coefficient":0.0044576546906917557, 
+                        "lift_slope_coefficient":3.6997873484580381
                     }
                 ]
             }, 
@@ -382,8 +382,8 @@
                 "segments":[
                     {
                         "name":"VTOL", 
-                        "base_drag_coefficient":0.0022288273453458778, 
-                        "lift_slope_coefficient":2.5200306225732088
+                        "base_drag_coefficient":0.0027823132634225418, 
+                        "lift_slope_coefficient":2.5200215311773961
                     }, 
                     {
                         "name":"Cruise", 
@@ -401,9 +401,9 @@
                         "lift_slope_coefficient":2.5219163271213825
                     }, 
                     {
-                        "name":"VTOL", 
-                        "base_drag_coefficient":0, 
-                        "lift_slope_coefficient":0
+                        "name":"VTOL2", 
+                        "base_drag_coefficient":0.0022288273453458778, 
+                        "lift_slope_coefficient":2.5200306225732088
                     }
                 ]
             }, 
@@ -469,7 +469,7 @@
         "segments":[
             {
                 "name":"VTOL", 
-                "base_drag_coefficient":0.076827070446064
+                "base_drag_coefficient":0.043512253052819166
             }, 
             {
                 "name":"Cruise", 
@@ -484,8 +484,8 @@
                 "base_drag_coefficient":0.030602041290485771
             }, 
             {
-                "name":"VTOL", 
-                "base_drag_coefficient":0
+                "name":"VTOL2", 
+                "base_drag_coefficient":0.033314817393244836
             }
         ], 
         "mass":7.5747776309194412
