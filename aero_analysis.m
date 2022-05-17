@@ -43,7 +43,7 @@ for i = 1 : length(vehicle.components)
 
             vehicle.segments{vehicle_segment_id}.base_drag_coefficient = vehicle.segments{vehicle_segment_id}.base_drag_coefficient + vehicle.components{i}.segments{comp_segment_id}.base_drag_coefficient;
         end
-    elseif is_type(vehicle.components{i}, 'wing')
+    elseif is_type(vehicle.components{i}, 'wing') % || is_type(vehicle.components{i}, 'wing.htail') || is_type(vehicle.components{i}, 'wing.vtail') 
         for j = 1 : length(mission.segments)
             [~, comp_segment_id] = find_by_name(vehicle.components{i}.segments, mission.segments{j}.name);
 
@@ -61,6 +61,32 @@ for i = 1 : length(vehicle.components)
             [~, vehicle_segment_id] = find_by_name(vehicle.segments, mission.segments{j}.name);
 
             vehicle.segments{vehicle_segment_id}.base_drag_coefficient = vehicle.segments{vehicle_segment_id}.base_drag_coefficient + vehicle.components{i}.segments{comp_segment_id}.base_drag_coefficient;
+        end
+    %elseif is_type(vehicle.components{i}, 'driver.rotor')
+     %   coco = 5 == 5;
+    elseif convertCharsToStrings(vehicle.components{i}.type) == "driver.rotor.main"
+        for j = 1 : length(mission.segments)
+            [~, comp_segment_id] = find_by_name(vehicle.components{i}.segments, mission.segments{j}.name);
+            
+            if comp_segment_id>0
+                Cd = 0.1;
+                diametro = vehicle.components{i}.radius*2;
+                chord_70 = vehicle.components{i}.chord_70;
+                CD = Cd * diametro*chord_70/0.5;
+
+                %m = mean(abs(mission.segments{j}.velocity)) / mean(mission.segments{j}.speed_sound);
+                %bb = sqrt(1 - m^2);
+
+                %vehicle.components{i}.segments{comp_segment_id}.lift_slope_coefficient = vehicle.components{i}.airfoil.lift_slope_coefficient * vehicle.components{i}.aspect_ratio /...
+                 %   (2 + sqrt(4 + vehicle.components{i}.aspect_ratio^2 * bb^2 * (1 + tand(vehicle.components{i}.sweep_tc_max)^2 / bb^2)));
+
+                vehicle.components{i}.segments{comp_segment_id}.base_drag_coefficient = CD;
+
+                [~, vehicle_segment_id] = find_by_name(vehicle.segments, mission.segments{j}.name);
+
+                vehicle.segments{vehicle_segment_id}.base_drag_coefficient = vehicle.segments{vehicle_segment_id}.base_drag_coefficient + vehicle.components{i}.segments{comp_segment_id}.base_drag_coefficient * vehicle.components{i}.number;
+            end
+
         end
     end
 end

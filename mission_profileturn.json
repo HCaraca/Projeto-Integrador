@@ -167,21 +167,21 @@
                 "speed_sound":340.082961929071, 
                 "pressure":100666.01948612196, 
                 "density":1.2185448668150525
-            },
-	    {
+            }, 
+            {
                 "name":"Turn", 
                 "type":"turn", 
                 "energy_network":"Electric Energy Network @ cruise", 
                 "velocity":14, 
                 "n":2.5, 
-                "time":2, 
+                "time":4, 
                 "altitude":55, 
                 "temperature":287.79249999999996, 
                 "speed_sound":340.082961929071, 
                 "pressure":100666.01948612196, 
                 "density":1.2185448668150525, 
                 "range":0
-            },
+            }, 
             {
                 "name":"Mission", 
                 "type":"cruise", 
@@ -209,7 +209,7 @@
                 "range":0
             }
         ], 
-        "time":1122.5, 
+        "time":1126.5, 
         "range":26000
     }, 
     "vehicle":{
@@ -241,6 +241,11 @@
                     {
                         "name":"Cruise", 
                         "base_drag_coefficient":0.0093541996576813058, 
+                        "lift_slope_coefficient":0
+                    }, 
+                    {
+                        "name":"Turn", 
+                        "base_drag_coefficient":0.010377194559429988, 
                         "lift_slope_coefficient":0
                     }, 
                     {
@@ -288,6 +293,11 @@
                         "lift_slope_coefficient":4.8507541461571524
                     }, 
                     {
+                        "name":"Turn", 
+                        "base_drag_coefficient":0.0056947237302566083, 
+                        "lift_slope_coefficient":4.8439239255287756
+                    }, 
+                    {
                         "name":"Mission", 
                         "base_drag_coefficient":0.00473034513140363, 
                         "lift_slope_coefficient":4.8507541461571524
@@ -330,6 +340,11 @@
                         "name":"Cruise", 
                         "base_drag_coefficient":0.0016631592744501824, 
                         "lift_slope_coefficient":3.7048403259637817
+                    }, 
+                    {
+                        "name":"Turn", 
+                        "base_drag_coefficient":0.002002228658651262, 
+                        "lift_slope_coefficient":3.7013471139903684
                     }, 
                     {
                         "name":"Mission", 
@@ -376,6 +391,11 @@
                         "lift_slope_coefficient":2.5219163271213825
                     }, 
                     {
+                        "name":"Turn", 
+                        "base_drag_coefficient":0.001001114329325631, 
+                        "lift_slope_coefficient":2.5206130925959105
+                    }, 
+                    {
                         "name":"Mission", 
                         "base_drag_coefficient":0.0008315796372250912, 
                         "lift_slope_coefficient":2.5219163271213825
@@ -406,7 +426,18 @@
                 "base_drag_coefficient":0.02, 
                 "tip_velocity":180, 
                 "efficiency":0.8, 
-                "mass":0.04
+                "mass":0.04, 
+                "chord_70":0.025, 
+                "segments":[
+                    {
+                        "name":"Cruise", 
+                        "base_drag_coefficient":0.0015
+                    }, 
+                    {
+                        "name":"Mission", 
+                        "base_drag_coefficient":0.0015
+                    }
+                ]
             }, 
             {
                 "name":"Propeller", 
@@ -424,7 +455,7 @@
                 "number":1, 
                 "efficiency":0.85, 
                 "mass":0.3, 
-                "max_power":800
+                "max_power":400
             }, 
             {
                 "name":"Electric Motor VTOL", 
@@ -442,11 +473,15 @@
             }, 
             {
                 "name":"Cruise", 
-                "base_drag_coefficient":0.01657928370076021
+                "base_drag_coefficient":0.018079283700760212
+            }, 
+            {
+                "name":"Turn", 
+                "base_drag_coefficient":0.019075261277663489
             }, 
             {
                 "name":"Mission", 
-                "base_drag_coefficient":0.01657928370076021
+                "base_drag_coefficient":0.018079283700760212
             }, 
             {
                 "name":"VTOL", 
