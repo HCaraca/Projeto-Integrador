@@ -30,7 +30,7 @@ fprintf(fid,'<Inertia>\n');
 %------------Definir massas------------%
 fprintf(fid,'<Point_Mass>\n');
 fprintf(fid,'<Tag></Tag>\n');
-fprintf(fid,'<Mass>  5.300 </Mass>\n');
+fprintf(fid,'<Mass>  6.200 </Mass>\n');
 fprintf(fid,'<coordinates>  0.085,   0, -0.2</coordinates>\n');
 fprintf(fid,'</Point_Mass>\n');
 %----------------Massas----------------%
@@ -67,7 +67,7 @@ fprintf(fid,'<isDoubleFin>false</isDoubleFin>\n');
 fprintf(fid,'<isSymFin>false</isSymFin>\n'); 
 %-----Definir inércia da asa-----%
 fprintf(fid,'<Inertia>\n'); 
-fprintf(fid,'<Volume_Mass>  0.000</Volume_Mass>\n'); 
+fprintf(fid,'<Volume_Mass>  1.500</Volume_Mass>\n'); 
 fprintf(fid,'</Inertia>\n'); 
 %--------------Inércia-----------%
 
@@ -76,8 +76,8 @@ fprintf(fid,'</Inertia>\n');
 n_sections_asa = 11;                                       %definir o número de secções pretendidas
 wing_span = 2;                                             %em metros
 %Y_asa = @(t)((t/n_sections_asa)*(wing_span/2));            %função que define a posição de cada secção
-Y_asa = [0 0.308 0.399 0.639 0.709 0.774 0.835 0.892 0.945 0.976 0.993 1.022]/1.022;
-corda_asa = @(y)(0.5*(0.3375*sqrt(1-(y/1)^2)+0.25)); %função que define a corda em função da distância à raíz
+Y_asa = [0 0.308 0.399 0.639 0.709 0.774 0.835 0.892 0.945 0.976 0.993 1.022]*1.4/1.022;
+corda_asa = @(y)(0.5*(0.3375*sqrt(1-(y/1)^2)+0.28)); %função que define a corda em função da distância à raíz
 twist_asa = @(y)(-sin((pi*y)/wing_span));                  %função que define a twist em função da distância à raíz
 diedro_1_asa = 0;
 %diedro_2 = ; caso haja mais que um diedro ao longo da asa;

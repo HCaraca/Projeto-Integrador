@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE explane>
+<explane version="1.0">
+<Units>
+<length_unit_to_meter>1</length_unit_to_meter>
+<mass_unit_to_kg>1</mass_unit_to_kg>
+</Units>
+<Plane>
+<Name> SD7037 </Name>
+<Description>
+miau
+</Description>
+<Inertia>
+<Point_Mass>
+<Tag></Tag>
+<Mass>  6.200 </Mass>
+<coordinates>  0.085,   0, -0.2</coordinates>
+</Point_Mass>
+</Inertia>
+<has_body> false </has_body>
+<wing>
+<Name>Main Wing</Name>
+<Type>MAINWING</Type>
+<Color>
+<red>208</red>
+<green>145</green>
+<blue>140</blue>
+<alpha>255</alpha>
+</Color>
+<Description></Description>
+<Position> 0.000, 0.000, 0.000</Position>
+ <Tilt_angle> 0.000 </Tilt_angle>
+<Symetric>true</Symetric>
+<isFin>false</isFin>
+<isDoubleFin>false</isDoubleFin>
+<isSymFin>false</isSymFin>
+<Inertia>
+<Volume_Mass>  1.500</Volume_Mass>
+</Inertia>
+<Sections>
+<Section>
+<y_position> 0.000 </y_position>
+<Chord> 0.309 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.000 </Twist>
+<x_number_of_panels> 16 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 4 </y_number_of_panels>
+<y_panel_distribution> Uniform </y_panel_distribution>
+<Left_Side_FoilName>SD7037</Left_Side_FoilName>
+<Right_Side_FoilName>SD7037</Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.422 </y_position>
+<Chord> 0.293 </Chord>
+<xOffset> 0.016 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.615 </Twist>
+<x_number_of_panels> 16 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 4 </y_number_of_panels>
+<y_panel_distribution> Uniform </y_panel_distribution>
+<Left_Side_FoilName>SD7037</Left_Side_FoilName>
+<Right_Side_FoilName>SD7037</Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.547 </y_position>
+<Chord> 0.281 </Chord>
+<xOffset> 0.027 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.757 </Twist>
+<x_number_of_panels> 16 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 4 </y_number_of_panels>
+<y_panel_distribution> Uniform </y_panel_distribution>
+<Left_Side_FoilName>SD7037</Left_Side_FoilName>
+<Right_Side_FoilName>SD7037</Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.875 </y_position>
+<Chord> 0.222 </Chord>
+<xOffset> 0.087 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.981 </Twist>
+<x_number_of_panels> 16 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 4 </y_number_of_panels>
+<y_panel_distribution> Uniform </y_panel_distribution>
+<Left_Side_FoilName>SD7037</Left_Side_FoilName>
+<Right_Side_FoilName>SD7037</Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.971 </y_position>
+<Chord> 0.180 </Chord>
+<xOffset> 0.129 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.999 </Twist>
+<x_number_of_panels> 16 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 4 </y_number_of_panels>
+<y_panel_distribution> Uniform </y_panel_distribution>
+<Left_Side_FoilName>SD7037</Left_Side_FoilName>
+<Right_Side_FoilName>SD7037</Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 1.060 </y_position>
+<Chord> 0.140 </Chord>
+<xOffset> 0.169 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.996 </Twist>
+<x_number_of_panels> 16 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 4 </y_number_of_panels>
+<y_panel_distribution> Uniform </y_panel_distribution>
+<Left_Side_FoilName>SD7037</Left_Side_FoilName>
+<Right_Side_FoilName>SD7037</Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 1.144 </y_position>
+<Chord> 0.140 </Chord>
+<xOffset> 0.169 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.975 </Twist>
+<x_number_of_panels> 16 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 4 </y_number_of_panels>
+<y_panel_distribution> Uniform </y_panel_distribution>
+<Left_Side_FoilName>SD7037</Left_Side_FoilName>
+<Right_Side_FoilName>SD7037</Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 1.222 </y_position>
+<Chord> 0.140 </Chord>
+<xOffset> 0.169 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.940 </Twist>
+<x_number_of_panels> 16 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 4 </y_number_of_panels>
+<y_panel_distribution> Uniform </y_panel_distribution>
+<Left_Side_FoilName>SD7037</Left_Side_FoilName>
+<Right_Side_FoilName>SD7037</Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 1.295 </y_position>
+<Chord> 0.140 </Chord>
+<xOffset> 0.169 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.895 </Twist>
+<x_number_of_panels> 16 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 4 </y_number_of_panels>
+<y_panel_distribution> Uniform </y_panel_distribution>
+<Left_Side_FoilName>SD7037</Left_Side_FoilName>
+<Right_Side_FoilName>SD7037</Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 1.337 </y_position>
+<Chord> 0.140 </Chord>
+<xOffset> 0.169 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.863 </Twist>
+<x_number_of_panels> 16 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 4 </y_number_of_panels>
+<y_panel_distribution> Uniform </y_panel_distribution>
+<Left_Side_FoilName>SD7037</Left_Side_FoilName>
+<Right_Side_FoilName>SD7037</Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 1.360 </y_position>
+<Chord> 0.140 </Chord>
+<xOffset> 0.169 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.844 </Twist>
+<x_number_of_panels> 16 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 4 </y_number_of_panels>
+<y_panel_distribution> Uniform </y_panel_distribution>
+<Left_Side_FoilName>SD7037</Left_Side_FoilName>
+<Right_Side_FoilName>SD7037</Right_Side_FoilName>
+</Section>
+</Sections>
+</wing>
+<wing>
+<Name>ELeVaTOr</Name>
+<Type>ELEVATOR</Type>
+<Color>
+<red>138</red>
+<green>216</green>
+<blue>140</blue>
+<alpha>255</alpha>
+</Color>
+<Description></Description>
+<Position> 0.850, 0.000, 0.240</Position>
+ <Tilt_angle> -1.500 </Tilt_angle>
+<Symetric>true</Symetric>
+<isFin>false</isFin>
+<isDoubleFin>false</isDoubleFin>
+<isSymFin>false</isSymFin>
+<Inertia>
+<Volume_Mass>  0.000</Volume_Mass>
+</Inertia>
+<Sections>
+<Section>
+<y_position> 0.000 </y_position>
+<Chord> 0.200 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> -37.000 </Dihedral>
+<Twist> 0.000 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> UNIFORM </y_panel_distribution>
+<Left_Side_FoilName>NACA 0008</Left_Side_FoilName>
+<Right_Side_FoilName>NACA 0008</Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.400 </y_position>
+<Chord> 0.200 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> -37.000 </Dihedral>
+<Twist> 0.000 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> UNIFORM </y_panel_distribution>
+<Left_Side_FoilName>NACA 0008</Left_Side_FoilName>
+<Right_Side_FoilName>NACA 0008</Right_Side_FoilName>
+</Section>
+</Sections>
+</wing>
+<wing>
+<Name>el fin</Name>
+<Type>FIN</Type>
+<Color>
+<red>233</red>
+<green>201</green>
+<blue>110</blue>
+<alpha>255</alpha>
+</Color>
+<Description></Description>
+<Position> 1.300, 0.000, 0.000</Position>
+ <Tilt_angle> 0.000 </Tilt_angle>
+<Symetric>true</Symetric>
+<isFin>true</isFin>
+<isDoubleFin>false</isDoubleFin>
+<isSymFin>false</isSymFin>
+<Inertia>
+<Volume_Mass>  0.000</Volume_Mass>
+</Inertia>
+<Sections>
+<Section>
+<y_position> 0.000 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.000 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.003 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.023 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.006 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.046 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.010 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.068 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.013 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.091 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.016 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.114 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.019 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.136 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.022 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.159 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.026 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.181 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.029 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.203 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.032 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.226 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.035 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.248 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.038 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.270 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.041 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.292 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.045 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.313 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.048 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.335 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.051 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.356 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.054 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.377 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.057 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.398 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.061 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.419 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.064 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.440 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.067 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.460 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.070 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.480 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.073 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.500 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.077 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.520 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.080 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.539 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.083 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.558 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.086 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.000 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.577 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.089 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.595 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.092 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.613 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.096 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.631 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.099 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.649 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.102 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.666 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.105 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.683 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.108 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.699 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.112 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.715 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.115 </y_position>
+<Chord> 0.301 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.731 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.118 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.746 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.121 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.761 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.124 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.776 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.128 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.790 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.131 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.804 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.134 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.817 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.137 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.830 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.140 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.842 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.143 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.854 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.147 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.866 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.150 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.001 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.877 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.153 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.002 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.888 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.156 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.002 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.898 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.159 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.002 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.908 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.163 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.002 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.917 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.166 </y_position>
+<Chord> 0.300 </Chord>
+<xOffset> 0.002 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.926 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.169 </y_position>
+<Chord> 0.299 </Chord>
+<xOffset> 0.002 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.934 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.172 </y_position>
+<Chord> 0.299 </Chord>
+<xOffset> 0.002 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.942 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.175 </y_position>
+<Chord> 0.299 </Chord>
+<xOffset> 0.002 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.950 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.179 </y_position>
+<Chord> 0.299 </Chord>
+<xOffset> 0.002 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.957 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.182 </y_position>
+<Chord> 0.299 </Chord>
+<xOffset> 0.002 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.963 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.185 </y_position>
+<Chord> 0.299 </Chord>
+<xOffset> 0.002 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.969 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.188 </y_position>
+<Chord> 0.299 </Chord>
+<xOffset> 0.002 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.974 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.191 </y_position>
+<Chord> 0.299 </Chord>
+<xOffset> 0.002 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.979 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.194 </y_position>
+<Chord> 0.299 </Chord>
+<xOffset> 0.003 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.983 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.198 </y_position>
+<Chord> 0.299 </Chord>
+<xOffset> 0.003 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.987 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.201 </y_position>
+<Chord> 0.299 </Chord>
+<xOffset> 0.003 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.991 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.204 </y_position>
+<Chord> 0.299 </Chord>
+<xOffset> 0.003 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.994 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.207 </y_position>
+<Chord> 0.299 </Chord>
+<xOffset> 0.003 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.996 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.210 </y_position>
+<Chord> 0.298 </Chord>
+<xOffset> 0.003 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.998 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.214 </y_position>
+<Chord> 0.298 </Chord>
+<xOffset> 0.003 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -0.999 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 0.217 </y_position>
+<Chord> 0.298 </Chord>
+<xOffset> 0.003 </xOffset>
+<Dihedral> 0.000 </Dihedral>
+<Twist> -1.000 </Twist>
+<x_number_of_panels> 10 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 7 </y_number_of_panels>
+<y_panel_distribution> COSINE </y_panel_distribution>
+<Left_Side_FoilName> NACA 0018 </Left_Side_FoilName>
+<Right_Side_FoilName> NACA 0018 </Right_Side_FoilName>
+</Section>
+</Sections>
+</wing>
+</Plane>
+</explane>
