@@ -8,6 +8,7 @@ function test = is_type(data, type)
 type_tags = split(type, '.');
 elem_tags = split(data.type, '.');
 
+
 for i = 1 : length(type_tags)
     if ~strcmp(elem_tags{i}, type_tags{i})
         test = false;
