@@ -40,9 +40,9 @@ miau
 <Sections>
 <Section>
 <y_position> 0.000 </y_position>
-<Chord> 0.309 </Chord>
+<Chord> 0.318 </Chord>
 <xOffset> 0.000 </xOffset>
-<Dihedral> 0.000 </Dihedral>
+<Dihedral> 1.500 </Dihedral>
 <Twist> -0.000 </Twist>
 <x_number_of_panels> 16 </x_number_of_panels>
 <x_panel_distribution> UNIFORM </x_panel_distribution>
@@ -53,10 +53,10 @@ miau
 </Section>
 <Section>
 <y_position> 0.422 </y_position>
-<Chord> 0.293 </Chord>
-<xOffset> 0.016 </xOffset>
-<Dihedral> 0.000 </Dihedral>
-<Twist> -0.615 </Twist>
+<Chord> 0.310 </Chord>
+<xOffset> 0.008 </xOffset>
+<Dihedral> 1.500 </Dihedral>
+<Twist> -0.456 </Twist>
 <x_number_of_panels> 16 </x_number_of_panels>
 <x_panel_distribution> UNIFORM </x_panel_distribution>
 <y_number_of_panels> 4 </y_number_of_panels>
@@ -66,10 +66,10 @@ miau
 </Section>
 <Section>
 <y_position> 0.547 </y_position>
-<Chord> 0.281 </Chord>
-<xOffset> 0.027 </xOffset>
-<Dihedral> 0.000 </Dihedral>
-<Twist> -0.757 </Twist>
+<Chord> 0.304 </Chord>
+<xOffset> 0.014 </xOffset>
+<Dihedral> 1.500 </Dihedral>
+<Twist> -0.576 </Twist>
 <x_number_of_panels> 16 </x_number_of_panels>
 <x_panel_distribution> UNIFORM </x_panel_distribution>
 <y_number_of_panels> 4 </y_number_of_panels>
@@ -79,10 +79,10 @@ miau
 </Section>
 <Section>
 <y_position> 0.875 </y_position>
-<Chord> 0.222 </Chord>
-<xOffset> 0.087 </xOffset>
-<Dihedral> 0.000 </Dihedral>
-<Twist> -0.981 </Twist>
+<Chord> 0.279 </Chord>
+<xOffset> 0.039 </xOffset>
+<Dihedral> 1.500 </Dihedral>
+<Twist> -0.832 </Twist>
 <x_number_of_panels> 16 </x_number_of_panels>
 <x_panel_distribution> UNIFORM </x_panel_distribution>
 <y_number_of_panels> 4 </y_number_of_panels>
@@ -92,10 +92,10 @@ miau
 </Section>
 <Section>
 <y_position> 0.971 </y_position>
-<Chord> 0.180 </Chord>
-<xOffset> 0.129 </xOffset>
-<Dihedral> 0.000 </Dihedral>
-<Twist> -0.999 </Twist>
+<Chord> 0.268 </Chord>
+<xOffset> 0.050 </xOffset>
+<Dihedral> 1.500 </Dihedral>
+<Twist> -0.886 </Twist>
 <x_number_of_panels> 16 </x_number_of_panels>
 <x_panel_distribution> UNIFORM </x_panel_distribution>
 <y_number_of_panels> 4 </y_number_of_panels>
@@ -105,10 +105,10 @@ miau
 </Section>
 <Section>
 <y_position> 1.060 </y_position>
-<Chord> 0.140 </Chord>
-<xOffset> 0.169 </xOffset>
-<Dihedral> 0.000 </Dihedral>
-<Twist> -0.996 </Twist>
+<Chord> 0.256 </Chord>
+<xOffset> 0.062 </xOffset>
+<Dihedral> 1.500 </Dihedral>
+<Twist> -0.928 </Twist>
 <x_number_of_panels> 16 </x_number_of_panels>
 <x_panel_distribution> UNIFORM </x_panel_distribution>
 <y_number_of_panels> 4 </y_number_of_panels>
@@ -118,10 +118,10 @@ miau
 </Section>
 <Section>
 <y_position> 1.144 </y_position>
-<Chord> 0.140 </Chord>
-<xOffset> 0.169 </xOffset>
-<Dihedral> 0.000 </Dihedral>
-<Twist> -0.975 </Twist>
+<Chord> 0.243 </Chord>
+<xOffset> 0.075 </xOffset>
+<Dihedral> 1.500 </Dihedral>
+<Twist> -0.959 </Twist>
 <x_number_of_panels> 16 </x_number_of_panels>
 <x_panel_distribution> UNIFORM </x_panel_distribution>
 <y_number_of_panels> 4 </y_number_of_panels>
@@ -131,10 +131,10 @@ miau
 </Section>
 <Section>
 <y_position> 1.222 </y_position>
-<Chord> 0.140 </Chord>
-<xOffset> 0.169 </xOffset>
-<Dihedral> 0.000 </Dihedral>
-<Twist> -0.940 </Twist>
+<Chord> 0.227 </Chord>
+<xOffset> 0.091 </xOffset>
+<Dihedral> 1.500 </Dihedral>
+<Twist> -0.980 </Twist>
 <x_number_of_panels> 16 </x_number_of_panels>
 <x_panel_distribution> UNIFORM </x_panel_distribution>
 <y_number_of_panels> 4 </y_number_of_panels>
@@ -144,10 +144,10 @@ miau
 </Section>
 <Section>
 <y_position> 1.295 </y_position>
-<Chord> 0.140 </Chord>
-<xOffset> 0.169 </xOffset>
-<Dihedral> 0.000 </Dihedral>
-<Twist> -0.895 </Twist>
+<Chord> 0.208 </Chord>
+<xOffset> 0.110 </xOffset>
+<Dihedral> 1.500 </Dihedral>
+<Twist> -0.993 </Twist>
 <x_number_of_panels> 16 </x_number_of_panels>
 <x_panel_distribution> UNIFORM </x_panel_distribution>
 <y_number_of_panels> 4 </y_number_of_panels>
@@ -157,10 +157,10 @@ miau
 </Section>
 <Section>
 <y_position> 1.337 </y_position>
-<Chord> 0.140 </Chord>
-<xOffset> 0.169 </xOffset>
-<Dihedral> 0.000 </Dihedral>
-<Twist> -0.863 </Twist>
+<Chord> 0.193 </Chord>
+<xOffset> 0.125 </xOffset>
+<Dihedral> 1.500 </Dihedral>
+<Twist> -0.998 </Twist>
 <x_number_of_panels> 16 </x_number_of_panels>
 <x_panel_distribution> UNIFORM </x_panel_distribution>
 <y_number_of_panels> 4 </y_number_of_panels>
@@ -170,10 +170,36 @@ miau
 </Section>
 <Section>
 <y_position> 1.360 </y_position>
+<Chord> 0.182 </Chord>
+<xOffset> 0.136 </xOffset>
+<Dihedral> 1.500 </Dihedral>
+<Twist> -0.999 </Twist>
+<x_number_of_panels> 16 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 4 </y_number_of_panels>
+<y_panel_distribution> Uniform </y_panel_distribution>
+<Left_Side_FoilName>SD7037</Left_Side_FoilName>
+<Right_Side_FoilName>SD7037</Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 1.381 </y_position>
+<Chord> 0.169 </Chord>
+<xOffset> 0.149 </xOffset>
+<Dihedral> 1.500 </Dihedral>
+<Twist> -1.000 </Twist>
+<x_number_of_panels> 16 </x_number_of_panels>
+<x_panel_distribution> UNIFORM </x_panel_distribution>
+<y_number_of_panels> 4 </y_number_of_panels>
+<y_panel_distribution> Uniform </y_panel_distribution>
+<Left_Side_FoilName>SD7037</Left_Side_FoilName>
+<Right_Side_FoilName>SD7037</Right_Side_FoilName>
+</Section>
+<Section>
+<y_position> 1.400 </y_position>
 <Chord> 0.140 </Chord>
-<xOffset> 0.169 </xOffset>
-<Dihedral> 0.000 </Dihedral>
-<Twist> -0.844 </Twist>
+<xOffset> 0.178 </xOffset>
+<Dihedral> 1.500 </Dihedral>
+<Twist> -1.000 </Twist>
 <x_number_of_panels> 16 </x_number_of_panels>
 <x_panel_distribution> UNIFORM </x_panel_distribution>
 <y_number_of_panels> 4 </y_number_of_panels>

@@ -73,13 +73,15 @@ fprintf(fid,'</Inertia>\n');
 
 %------------Início das sections------------%
 %------------------------------------Definições das sections------------------------------------------%
-n_sections_asa = 11;                                       %definir o número de secções pretendidas
-wing_span = 2;                                             %em metros
+                                      %definir o número de secções pretendidas
+wing_span = 2.8;%em metros
+Cmed = 0.28; % em metros
 %Y_asa = @(t)((t/n_sections_asa)*(wing_span/2));            %função que define a posição de cada secção
-Y_asa = [0 0.308 0.399 0.639 0.709 0.774 0.835 0.892 0.945 0.976 0.993 1.022]*1.4/1.022;
-corda_asa = @(y)(0.5*(0.3375*sqrt(1-(y/1)^2)+0.28)); %função que define a corda em função da distância à raíz
+Y_asa = [0 0.308 0.399 0.639 0.709 0.774 0.835 0.892 0.945 0.976 0.993 1.008 1.022]*(wing_span/2)/1.022;
+n_sections_asa = length(Y_asa); 
+corda_asa = @(y)(0.5*((4*Cmed/pi)*sqrt(1-(2*y/wing_span)^2)+Cmed)); %função que define a corda em função da distância à raíz
 twist_asa = @(y)(-sin((pi*y)/wing_span));                  %função que define a twist em função da distância à raíz
-diedro_1_asa = 0;
+diedro_1_asa = 1.5;
 %diedro_2 = ; caso haja mais que um diedro ao longo da asa;
 %diedro_change = ; Y a partir do qual o diedro muda de valor;
 x_paineis_asa = 16;                                        %número de paineis em x

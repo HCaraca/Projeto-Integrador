@@ -340,11 +340,11 @@
                 "mean_chord":0.28, 
                 "oswald_efficiency":0.85, 
                 "airfoil":{
-                    "type":"naca4409", 
+                    "type":"naoJorge", 
                     "tc_max":0.15, 
                     "xc_max":0.3, 
                     "lift_slope_coefficient":6.2, 
-                    "cl_max":1.3
+                    "cl_max":1.2
                 }, 
                 "sweep_le":0, 
                 "sweep_c4":0, 
