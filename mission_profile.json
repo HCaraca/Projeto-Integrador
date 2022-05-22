@@ -265,33 +265,33 @@
                 "type":"fuselage", 
                 "interf_factor":1.1, 
                 "diameter":0.03, 
-                "length":1.3, 
+                "length":1.7, 
                 "mass":0.18611667, 
-                "area_wet":0.12534954687823274, 
+                "area_wet":0.16304865872131027, 
                 "segments":[
                     {
                         "name":"VTOL", 
-                        "base_drag_coefficient":0.00086927037865608533, 
+                        "base_drag_coefficient":0.0010181272510241903, 
                         "lift_slope_coefficient":0
                     }, 
                     {
                         "name":"Cruise", 
-                        "base_drag_coefficient":0.00075440647983214006, 
+                        "base_drag_coefficient":0.00096409372110927371, 
                         "lift_slope_coefficient":0
                     }, 
                     {
                         "name":"Turn", 
-                        "base_drag_coefficient":0.00083777566699965627, 
+                        "base_drag_coefficient":0.001068580088915097, 
                         "lift_slope_coefficient":0
                     }, 
                     {
                         "name":"Mission", 
-                        "base_drag_coefficient":0.00075440647983214006, 
+                        "base_drag_coefficient":0.00096409372110927371, 
                         "lift_slope_coefficient":0
                     }, 
                     {
                         "name":"VTOL2", 
-                        "base_drag_coefficient":0.00061466697943231567, 
+                        "base_drag_coefficient":0.00071992468331002319, 
                         "lift_slope_coefficient":0
                     }
                 ]
@@ -299,7 +299,7 @@
             {
                 "name":"Right Tail Boom", 
                 "type":"fuselage", 
-                "interf_factor":1.1, 
+                "interf_factor":1.7, 
                 "diameter":0.03, 
                 "length":1.3, 
                 "mass":0.18611667, 
@@ -307,27 +307,27 @@
                 "segments":[
                     {
                         "name":"VTOL", 
-                        "base_drag_coefficient":0.00086927037865608533, 
+                        "base_drag_coefficient":0.0013434178579230409, 
                         "lift_slope_coefficient":0
                     }, 
                     {
                         "name":"Cruise", 
-                        "base_drag_coefficient":0.00075440647983214006, 
+                        "base_drag_coefficient":0.0011659009233769438, 
                         "lift_slope_coefficient":0
                     }, 
                     {
                         "name":"Turn", 
-                        "base_drag_coefficient":0.00083777566699965627, 
+                        "base_drag_coefficient":0.0012947442126358324, 
                         "lift_slope_coefficient":0
                     }, 
                     {
                         "name":"Mission", 
-                        "base_drag_coefficient":0.00075440647983214006, 
+                        "base_drag_coefficient":0.0011659009233769438, 
                         "lift_slope_coefficient":0
                     }, 
                     {
                         "name":"VTOL2", 
-                        "base_drag_coefficient":0.00061466697943231567, 
+                        "base_drag_coefficient":0.00094993987730448786, 
                         "lift_slope_coefficient":0
                     }
                 ]
@@ -385,8 +385,8 @@
                 "name":"Horizontal Tail", 
                 "type":"wing.htail", 
                 "interf_factor":1.03, 
-                "aspect_ratio":4, 
-                "mean_chord":0.2, 
+                "aspect_ratio":4.26, 
+                "mean_chord":0.15, 
                 "oswald_efficiency":0.8, 
                 "airfoil":{
                     "type":"naca0009", 
@@ -399,34 +399,34 @@
                 "sweep_c4":15, 
                 "sweep_tc_max":20, 
                 "mass":0.1, 
-                "span":0.8, 
-                "area_ref":0.16000000000000003, 
-                "area_wet":0.32880000000000009, 
+                "span":0.6389999999999999, 
+                "area_ref":0.095849999999999977, 
+                "area_wet":0.19697174999999997, 
                 "segments":[
                     {
                         "name":"VTOL", 
-                        "base_drag_coefficient":0.0030568348387468992, 
-                        "lift_slope_coefficient":3.6997630104109636
+                        "base_drag_coefficient":0.0021145281796405876, 
+                        "lift_slope_coefficient":3.797582748499392
                     }, 
                     {
                         "name":"Cruise", 
-                        "base_drag_coefficient":0.001092508962170719, 
-                        "lift_slope_coefficient":3.7048403259637817
+                        "base_drag_coefficient":0.00075572973643773416, 
+                        "lift_slope_coefficient":3.8029906654532737
                     }, 
                     {
                         "name":"Turn", 
-                        "base_drag_coefficient":0.0013152394887823978, 
-                        "lift_slope_coefficient":3.7013471139903684
+                        "base_drag_coefficient":0.00090980085896512884, 
+                        "lift_slope_coefficient":3.7992699136926986
                     }, 
                     {
                         "name":"Mission", 
-                        "base_drag_coefficient":0.001092508962170719, 
-                        "lift_slope_coefficient":3.7048403259637817
+                        "base_drag_coefficient":0.00075572973643773416, 
+                        "lift_slope_coefficient":3.8029906654532737
                     }, 
                     {
                         "name":"VTOL2", 
-                        "base_drag_coefficient":0.0024487383100866714, 
-                        "lift_slope_coefficient":3.6997873484580381
+                        "base_drag_coefficient":0.0016938848300244922, 
+                        "lift_slope_coefficient":3.7976086693959461
                     }
                 ]
             }, 
@@ -434,8 +434,8 @@
                 "name":"Vertical Tail", 
                 "type":"wing.vtail", 
                 "interf_factor":1.03, 
-                "aspect_ratio":2, 
-                "mean_chord":0.2, 
+                "aspect_ratio":3.21, 
+                "mean_chord":0.15, 
                 "oswald_efficiency":0.8, 
                 "airfoil":{
                     "type":"naca0009", 
@@ -448,34 +448,34 @@
                 "sweep_c4":15, 
                 "sweep_tc_max":20, 
                 "mass":0.1, 
-                "span":0.4, 
-                "area_ref":0.080000000000000016, 
-                "area_wet":0.16440000000000005, 
+                "span":0.4815, 
+                "area_ref":0.072225, 
+                "area_wet":0.148422375, 
                 "segments":[
                     {
                         "name":"VTOL", 
-                        "base_drag_coefficient":0.0015284174193734496, 
-                        "lift_slope_coefficient":2.5200215311773961
+                        "base_drag_coefficient":0.0015933416564897387, 
+                        "lift_slope_coefficient":3.3401507022234869
                     }, 
                     {
                         "name":"Cruise", 
-                        "base_drag_coefficient":0.00054625448108535952, 
-                        "lift_slope_coefficient":2.5219163271213825
+                        "base_drag_coefficient":0.00056945832252702506, 
+                        "lift_slope_coefficient":3.3440953467701742
                     }, 
                     {
                         "name":"Turn", 
-                        "base_drag_coefficient":0.00065761974439119888, 
-                        "lift_slope_coefficient":2.5206130925959105
+                        "base_drag_coefficient":0.00068555416837513231, 
+                        "lift_slope_coefficient":3.3413816538259691
                     }, 
                     {
                         "name":"Mission", 
-                        "base_drag_coefficient":0.00054625448108535952, 
-                        "lift_slope_coefficient":2.5219163271213825
+                        "base_drag_coefficient":0.00056945832252702506, 
+                        "lift_slope_coefficient":3.3440953467701742
                     }, 
                     {
                         "name":"VTOL2", 
-                        "base_drag_coefficient":0.0012243691550433357, 
-                        "lift_slope_coefficient":2.5200306225732088
+                        "base_drag_coefficient":0.0012763780057226807, 
+                        "lift_slope_coefficient":3.3401696160969152
                     }
                 ]
             }, 
@@ -541,23 +541,23 @@
         "segments":[
             {
                 "name":"VTOL", 
-                "base_drag_coefficient":0.04343357889192314
+                "base_drag_coefficient":0.043179200821568176
             }, 
             {
                 "name":"Cruise", 
-                "base_drag_coefficient":0.030488264041163317
+                "base_drag_coefficient":0.030795870341693933
             }, 
             {
                 "name":"Turn", 
-                "base_drag_coefficient":0.028005130335693306
+                "base_drag_coefficient":0.028315399097411587
             }, 
             {
                 "name":"Mission", 
-                "base_drag_coefficient":0.030488264041163317
+                "base_drag_coefficient":0.030795870341693933
             }, 
             {
                 "name":"VTOL2", 
-                "base_drag_coefficient":0.03290572655234969
+                "base_drag_coefficient":0.032643412524716739
             }
         ], 
         "mass":7.9460427423583369
