@@ -485,7 +485,7 @@
                 "specific_energy":360000, 
                 "efficiency":0.9, 
                 "reserve":0.2, 
-                "mass":0.99484116866416894
+                "mass":0.83964282489889253
             }, 
             {
                 "name":"Rotor", 
@@ -526,15 +526,15 @@
                 "type":"engine.prop", 
                 "number":1, 
                 "efficiency":0.85, 
-                "mass":0.3, 
-                "max_power":550
+                "mass":0.177, 
+                "max_power":840
             }, 
             {
                 "name":"Electric Motor VTOL", 
                 "type":"engine.prop", 
                 "number":4, 
                 "efficiency":0.85, 
-                "mass":0.36, 
+                "mass":0.132, 
                 "max_power":800
             }
         ], 
@@ -560,7 +560,7 @@
                 "base_drag_coefficient":0.032643412524716739
             }
         ], 
-        "mass":7.9460427423583369
+        "mass":6.7248045628578232
     }, 
     "energy":{
         "networks":[
