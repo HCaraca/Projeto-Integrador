@@ -230,7 +230,7 @@
                 "interf_factor":1.2, 
                 "diameter":0.3, 
                 "length":1, 
-                "mass":0.65, 
+                "mass":0.7, 
                 "area_wet":1.2252211349000193, 
                 "segments":[
                     {
@@ -485,7 +485,7 @@
                 "specific_energy":360000, 
                 "efficiency":0.9, 
                 "reserve":0.2, 
-                "mass":0.81783804679249616
+                "mass":0.82508651270940792
             }, 
             {
                 "name":"Rotor", 
@@ -560,7 +560,7 @@
                 "base_drag_coefficient":0.037377599780987369
             }
         ], 
-        "mass":6.5486389600576471
+        "mass":6.6073371183225653
     }, 
     "energy":{
         "networks":[
