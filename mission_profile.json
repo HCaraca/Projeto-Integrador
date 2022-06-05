@@ -217,7 +217,7 @@
             {
                 "name":"Avionics", 
                 "type":"mass.point", 
-                "mass":0.6
+                "mass":0.8
             }, 
             {
                 "name":"Payload", 
@@ -228,34 +228,34 @@
                 "name":"Fuselage", 
                 "type":"fuselage", 
                 "interf_factor":1.2, 
-                "diameter":0.3, 
+                "diameter":0.28, 
                 "length":1, 
                 "mass":0.7, 
-                "area_wet":1.2252211349000193, 
+                "area_wet":1.1259468070465819, 
                 "segments":[
                     {
                         "name":"VTOL", 
-                        "base_drag_coefficient":0.025045403860876465, 
+                        "base_drag_coefficient":0.020369002870421239, 
                         "lift_slope_coefficient":0
                     }, 
                     {
                         "name":"Cruise", 
-                        "base_drag_coefficient":0.019976067529196877, 
+                        "base_drag_coefficient":0.01624619747008945, 
                         "lift_slope_coefficient":0
                     }, 
                     {
                         "name":"Turn", 
-                        "base_drag_coefficient":0.02222692089882063, 
+                        "base_drag_coefficient":0.018076778402281262, 
                         "lift_slope_coefficient":0
                     }, 
                     {
                         "name":"Mission", 
-                        "base_drag_coefficient":0.019976067529196877, 
+                        "base_drag_coefficient":0.01624619747008945, 
                         "lift_slope_coefficient":0
                     }, 
                     {
                         "name":"VTOL2", 
-                        "base_drag_coefficient":0.01770977490758149, 
+                        "base_drag_coefficient":0.01440306005568311, 
                         "lift_slope_coefficient":0
                     }
                 ]
@@ -485,7 +485,7 @@
                 "specific_energy":360000, 
                 "efficiency":0.9, 
                 "reserve":0.2, 
-                "mass":0.82508651270940792
+                "mass":0.85427795401707662
             }, 
             {
                 "name":"Rotor", 
@@ -541,26 +541,26 @@
         "segments":[
             {
                 "name":"VTOL", 
-                "base_drag_coefficient":0.049874352646199965
+                "base_drag_coefficient":0.045197951655744736
             }, 
             {
                 "name":"Cruise", 
-                "base_drag_coefficient":0.036135884250433112
+                "base_drag_coefficient":0.032406014191325688
             }, 
             {
                 "name":"Turn", 
-                "base_drag_coefficient":0.034257112428860245
+                "base_drag_coefficient":0.030106969932320878
             }, 
             {
                 "name":"Mission", 
-                "base_drag_coefficient":0.036135884250433112
+                "base_drag_coefficient":0.032406014191325688
             }, 
             {
                 "name":"VTOL2", 
-                "base_drag_coefficient":0.037377599780987369
+                "base_drag_coefficient":0.034070884929088989
             }
         ], 
-        "mass":6.6073371183225653
+        "mass":6.8423668848204819
     }, 
     "energy":{
         "networks":[
