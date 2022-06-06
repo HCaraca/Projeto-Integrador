@@ -5,31 +5,31 @@ ws = 84.15; %N/m^s
 nmax = 3.8;
 nmin = -0.4*nmax;
 vcruise = 25;
-clalfa = 0.09045455;
+clalfa = 0.09045455*180/pi;
 cmed = 0.28;
-Vb = 66; %V gust max gust
-Vc = 50; %V cruise 
-Vd = 25; %V dive
+Vb = 10; %V gust max gust
 
 %variaveis do ambiente
 rho = 1.225;
 g = 9.81;
 
 %Cálculos
-v = 0:0.1:25;
-vd = 1.5*vcruise;
+v = 0:0.1:45;
+vdive = 1.5*vcruise;
 nclmax = 0.5*rho*clmax*v.^2/ws;
 nclmin = 0.5*rho*clmin*v.^2/ws;
-VlimAeroelastico = [vcruise vd];
+VlimAeroelastico = [vcruise vdive];
 nlimAeroelastico = [nmin 0];
+va = sqrt((2*nmax*ws)/(rho*clmax));
 
 %gusts of wind
 miu = 2*ws/(rho*g*cmed*clalfa);
 k = 0.88*miu/(5.3 +miu); %subsonico
-Vb = k*Vb*0.3048; %V gust max gust
-Vc = k*Vc*0.3048; %V cruise 
-Vd = k*Vd*0.3048; %V dive
-deltanb = rho*Vb*v
+Vb = k*Vb; %V gust max gust
+deltanb = rho*Vb*va*clalfa/(2*ws);
+vnb = [0 va];
+nbposi = [1 1+deltanb];
+nbneg = [1 1-deltanb];
 
 % Gráficos
 plot(v,nclmax,'DisplayName','Positive Stall Limit');
@@ -42,10 +42,23 @@ linenmax.LabelHorizontalAlignment = 'left';
 linenmin = yline(nmin,'-c','Structural Limit','DisplayName','Negative Structural Limit');
 linenmin.LabelHorizontalAlignment = 'left';
 
-linedinamiclimit = xline(vd,'-m','Dinamic Pressure Limit','DisplayName','Dinamic Pressure Limit');
+linedinamiclimit = xline(vdive,'-m','Dinamic Pressure Limit','DisplayName','Dinamic Pressure Limit');
 linedinamiclimit.LabelVerticalAlignment = 'middle';
 
-legend('show','Location','SouthOutside');
-xlim([0 vd+5])
-ylim([nmin-0.5 nmax+1])
+%gusts of wind
+%nb
+nbposi = extrapolate([vnb(1) nbposi(1)],[vnb(2) nbposi(2)],v);
+plot(v,nbposi);
+nbneg = extrapolate([vnb(1) nbneg(1)],[vnb(2) nbneg(2)],v);
+plot(v,nbneg);
 
+%legend('show','Location','SouthOutside');
+xlim([0 vdive+10])
+%ylim([nmin-0.5 nmax+1])
+ylim([-8 10])
+
+function [yvalues] = extrapolate(begPoint,endPoint,xvalues)
+m = (endPoint(2)-begPoint(2))/(endPoint(1)-begPoint(1));
+b = begPoint(2);
+yvalues = xvalues*m+b;
+end
