@@ -1,0 +1,40 @@
+#-------------------------------------------------
+#
+#   naoJorge estabilidade 3
+#
+#  Dimensional unit and parameter data.
+#  Mass & Inertia breakdown.
+#-------------------------------------------------
+#  Names and scalings for units to be used for trim and eigenmode calculations.
+#  The Lunit and Munit values scale the mass, xyz, and inertia table data below.
+#  Lunit value will also scale all lengths and areas in the AVL input file.
+#
+Lunit =     1.0000 m
+Munit =     1.0000 kg
+Tunit = 1.0 s
+#-------------------------
+#  Gravity and density to be used as default values in trim setup (saves runtime typing).
+#  Must be in the unit names given above (i.e. m,kg,s).
+g   = 9.81
+rho = 1.225
+#-------------------------
+#  Mass & Inertia breakdown.
+#  x y z  is location of item's own CG.
+#  Ixx... are item's inertias about item's own CG.
+#
+#  x,y,z system here must be exactly the same one used in the .avl input file
+#     (same orientation, same origin location, same length units)
+#
+#     mass          x          y          z        Ixx        Iyy        Izz        Ixy        Ixz        Iyz 
+       1.5      0.154  -6.26e-17     0.0284      0.756    0.00796      0.763          0  -0.000475          0 ! Main Wing
+       0.3       1.58   2.84e-18       0.12     0.0117    0.00211     0.0109          0   2.75e-06          0 ! Elevator
+         2      -0.15          0      -0.11      0.000      0.000      0.000 ! cargo
+      2.87      0.314          0      -0.11      0.000      0.000      0.000 ! baterias
+       0.8      -0.35          0      -0.11      0.000      0.000      0.000 ! josé bento
+     0.035      0.314          0      -0.11      0.000      0.000      0.000 ! esc motor principal
+     0.186      0.625       -0.3          0      0.000      0.000      0.000 ! boom esquerdo
+     0.186      0.625        0.3          0      0.000      0.000      0.000 ! boom direito
+     0.221     -0.139        0.3          0      0.000      0.000      0.000 ! motor direito frente
+     0.221     -0.139       -0.3          0      0.000      0.000      0.000 ! motor esquerdo frente
+     0.221      0.461        0.3          0      0.000      0.000      0.000 ! motor direito tras
+     0.221      0.461       -0.3          0      0.000      0.000      0.000 ! motor esquerdo tras
