@@ -485,14 +485,14 @@
                 "specific_energy":360000, 
                 "efficiency":0.9, 
                 "reserve":0.2, 
-                "mass":0.85427795401707662
+                "mass":0.90276403852075171
             }, 
             {
                 "name":"Rotor", 
                 "type":"driver.rotor.main", 
                 "number":4, 
                 "number_blades":2, 
-                "radius":0.15, 
+                "radius":0.2, 
                 "rotor_solidity":0.08, 
                 "induced_power_factor":1.15, 
                 "base_drag_coefficient":0.02, 
@@ -503,11 +503,11 @@
                 "segments":[
                     {
                         "name":"Cruise", 
-                        "base_drag_coefficient":0.0015
+                        "base_drag_coefficient":0.0020000000000000005
                     }, 
                     {
                         "name":"Mission", 
-                        "base_drag_coefficient":0.0015
+                        "base_drag_coefficient":0.0020000000000000005
                     }
                 ]
             }, 
@@ -545,7 +545,7 @@
             }, 
             {
                 "name":"Cruise", 
-                "base_drag_coefficient":0.032406014191325688
+                "base_drag_coefficient":0.03440601419132569
             }, 
             {
                 "name":"Turn", 
@@ -553,14 +553,14 @@
             }, 
             {
                 "name":"Mission", 
-                "base_drag_coefficient":0.032406014191325688
+                "base_drag_coefficient":0.03440601419132569
             }, 
             {
                 "name":"VTOL2", 
                 "base_drag_coefficient":0.034070884929088989
             }
         ], 
-        "mass":6.8423668848204819
+        "mass":6.9005501862244456
     }, 
     "energy":{
         "networks":[
