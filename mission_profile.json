@@ -228,7 +228,7 @@
                 "name":"Fuselage", 
                 "type":"fuselage", 
                 "interf_factor":1.2, 
-                "diameter":0.28, 
+                "diameter":0.29, 
                 "length":1, 
                 "mass":0.7, 
                 "area_wet":1.1259468070465819, 
@@ -265,8 +265,8 @@
                 "type":"fuselage", 
                 "interf_factor":1.1, 
                 "diameter":0.03, 
-                "length":1.7, 
-                "mass":0.18611667, 
+                "length":1.56, 
+                "mass":0.1707894148, 
                 "area_wet":0.16304865872131027, 
                 "segments":[
                     {
@@ -301,8 +301,8 @@
                 "type":"fuselage", 
                 "interf_factor":1.7, 
                 "diameter":0.03, 
-                "length":1.3, 
-                "mass":0.18611667, 
+                "length":1.56, 
+                "mass":0.1707894148, 
                 "area_wet":0.12534954687823274, 
                 "segments":[
                     {
