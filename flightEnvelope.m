@@ -16,13 +16,15 @@ rho = 1.225;
 g = 9.81;
 
 %Cálculos
-v = 0:0.1:25;
+v = 0:0.1:35;
 vdive = 1.5*vcruise;
 nclmax = 0.5*rho*clmax*v.^2/ws;
 nclmin = 0.5*rho*clmin*v.^2/ws;
 VlimAeroelastico = [vcruise vdive];
 nlimAeroelastico = [nmin 0];
 va = sqrt((2*nmax*ws)/(rho*clmax));
+vstall = sqrt((2*ws)/(rho*clmax));
+nNegvstall = 0.5*rho*clmin*vstall^2/ws;
 
 %gusts of wind
 miu = 2*ws/(rho*g*cmed*clalfa);
@@ -70,7 +72,10 @@ plot(vnc,ncneg);
 plot(vnd,ndposi);
 plot(vnd,ndneg);
 
-%legend('show','Location','SouthOutside');
+%stall
+plot([vstall vstall],[nNegvstall 1]);
+
+legend('show','Location','SouthOutside');
 xlim([0 vdive+5])
-ylim([nmin-0.5 nmax+1])
+ylim([-7 9])
 

@@ -21,6 +21,8 @@ nclmin = 0.5*rho*clmin*v.^2/ws;
 VlimAeroelastico = [vcruise vdive];
 nlimAeroelastico = [nmin 0];
 va = sqrt((2*nmax*ws)/(rho*clmax));
+vstall = sqrt((2*ws)/(rho*clmax));
+nNegvstall = 0.5*rho*clmin*vstall^2/ws;
 
 %gusts of wind
 miu = 2*ws/(rho*g*cmed*clalfa);
@@ -52,7 +54,10 @@ plot(v,nbposi);
 nbneg = extrapolate([vnb(1) nbneg(1)],[vnb(2) nbneg(2)],v);
 plot(v,nbneg);
 
-%legend('show','Location','SouthOutside');
+%stall
+plot([vstall vstall],[nNegvstall 1]);
+
+legend('show','Location','SouthOutside');
 xlim([0 vdive+10])
 %ylim([nmin-0.5 nmax+1])
 ylim([-8 10])

@@ -1,0 +1,22 @@
+%longitudinal
+pcurto1 = [-9.1422 -7.4294];
+pcurto2 = [-9.1422 7.4294];
+fugoide1 = [-0.0141 -0.3389];
+fugoide2 = [-0.0141 0.3389];
+
+% Gráfico
+scatter(pcurto1(1),pcurto1(2),'DisplayName','Período Curto (1)');
+hold on
+scatter(pcurto2(1),pcurto2(2),'DisplayName','Período Curto (par)');
+scatter(fugoide1(1),fugoide1(2),'DisplayName','Positive Stall Limit');
+scatter(fugoide2(1),fugoide2(2),'DisplayName','Positive Stall Limit');
+legend('show','Location','SouthOutside');
+hold off
+
+
+%lateral
+rolamento = [-30.0282 0];
+rolamentoH1 = [-1.2021 -5.9651];
+rolamentoH2 = [-1.2021 5.9651];
+espiral = [0.0188 0];
+
